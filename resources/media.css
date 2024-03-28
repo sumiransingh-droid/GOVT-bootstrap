@@ -1,0 +1,168 @@
+/* xxxxxxxxxxxxx-------Media Query for Navigation Bar-----------xxxxxxxxxxxxxxxxxxx */
+
+@media  (1200px>=width>=992px){
+    .nav-right .btn{
+        font-size: 13px;
+        margin-right: 10px;
+        
+    }
+
+}
+@media  (width<=992px){
+    .nav-right .btn{
+        margin-bottom: 10px;
+    }
+
+}
+
+/* xxxxxxxxxxxxx-------Media Query for Medium device Ex--- Tablet-----------xxxxxxxxxxxxxxxxxxx */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    
+    .carousel-upper p{
+        font-size: 15px;
+        font-weight: 600;
+        
+    }
+    .carousel-upper svg{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .carousel-upper .row{
+        padding-top: 2%;
+    }
+    .lets-explore-img .btn{
+        width: 180px !important;
+        height: 50px;
+        font-size: 100%;
+        left: 12%;
+    }
+
+    /* .meet-idealogical {
+        margin-top: 73%;
+        position: relative;
+    } */
+
+    .meet-idealogical .img1 img{
+        height: 300px;
+        width: 300px;   
+    }
+    .meet-idealogical .img2 img{
+        left: 57%;
+        top:50% ;
+    }
+    .meet-idealogical .img3 img{
+        left: 70%;
+        top: 40%;
+        width: 200px;
+        height: 200px; 
+    }
+    .blue-section-text{
+        padding-left: 1%;      
+    }
+    .brand .brand-row{
+        padding-left: 10%;
+        margin-top: 5%;
+    }
+    .footer-nav-right{
+        margin-left: 10%;
+    }
+    
+    .footer-nav-left{
+        padding-left: 2%;
+    }
+    .footer-main{
+        height: 420px;
+        padding-top: 50%;
+        
+        /* font-size: 80%; */
+    }
+}
+
+/* xxxxxxxxxxxxx-------Media Query for Small device Ex--- Moblie Phones-----------xxxxxxxxxxxxxxxxxxx */
+
+@media only screen and (min-width :576px) and (max-width:767px){
+    .carousel-upper p{
+        font-size: 12px;
+        font-weight: 600;
+        
+    }
+    .carousel-upper{
+        height: 120px;
+    }
+    .lets-explore-img img{
+        margin-bottom: 10px;
+    }
+    .meet-idealogical{
+        margin-top: 100%;
+    }
+    
+    .meet-idealogical .img1 img{ 
+        width: 220px;   
+    }
+    .meet-idealogical .img2 img{ 
+        top:35% ;
+    }
+    .meet-idealogical .img3 img{
+        top: 30%;
+        width: 150px;
+    }
+    .blue-section{
+        padding-bottom: 5%;
+    }
+    .meet-council .card-body{
+        text-align: center;
+    }
+    .brand img{
+        width: 100px;
+    }
+    .footer-nav-right{
+        margin-left: 0%;
+    }
+    .footer-nav-left{
+        padding-left: 8%;
+    }
+    .footer-nav{
+        height: 180px;
+    }
+    .footer-main{
+        height: 950px;  
+    }
+    .service-request{
+        padding-left: 10%;
+        margin-top: 20px;
+    }
+    .useful-links{
+        padding-left: 10%;
+        margin-top: 20px;
+    }
+    .city-news{
+        padding-left: 10%;
+        margin-top: 20px;
+    }
+    
+    
+}
+
+/* xxxxxxxxxxxxx-------Media Query for lets explore-----------xxxxxxxxxxxxxxxxxxx */
+
+@media (width<=991px){
+    .lets-explore-img img{
+        width: 230px;
+        padding: 0px;
+    }
+    .footer-main{
+        padding-top: 10px;
+        /* height: 400px; */
+    }
+    .footer-main input{
+        width: 40%;  
+    }
+    .footer-list{
+        padding: 0%;
+    }
+    .meet-idealogical .img2 img{
+        top: 60% ;
+    }
+}
+

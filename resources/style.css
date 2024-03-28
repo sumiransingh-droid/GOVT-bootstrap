@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.top-header{
+    background-color: rgb(12, 12, 82);
+    font-size: 13px;
+}
+.top-header-text a{
+    text-decoration: none;
+    color: rgb(34, 128, 145);
+}
+.top-header-text svg{
+    color: rgb(228, 119, 55);
+}
+.top-header-right{
+    display: flex;
+}
+.top-header-right a{
+    text-decoration: none;
+    color: rgb(34, 128, 145);
+    
+}
+
+/* xxxxxxxxxxxxx-------Navbar-----------xxxxxxxxxxxxxxxxxxx */
+
+.navbar-nav a{
+    font-size: 13px;
+}
+.report-button{
+    border-radius: 0px !important;
+    border: 2px solid !important;
+}
+
+/* xxxxxxxxxxxxx-------Carousel-----------xxxxxxxxxxxxxxxxxxx */
+
+.carousel-inner img{
+    height: 500px;
+    width: 80%;
+    object-position: center;
+    object-fit: cover;
+}
+.carousel-inner .btn{
+    background-color: rgb(228, 119, 55);
+    border-radius: 0px !important;
+    color: white;
+}
+.carousel-inner .btn:hover{
+    background-color: white;
+    border:1px solid rgb(228, 119, 55) !important;
+    color: rgb(228, 119, 55);
+}
+.carousel-inner h1{
+    font-weight: 600;
+    font-size: 450%;
+}
+#myCarousel .carousel-btn{
+    background-color: rgba(29, 28, 28, 0.973);
+    border-radius: 50%;
+    color: white;
+    padding: 25px;
+
+}
+
+/* xxxxxxxxxxxxx-------Carousel Footer-----------xxxxxxxxxxxxxxxxxxx */
+
+.carousel-footer{
+    width: 100%;
+    height: 300px;
+    background-color:  rgb(228, 119, 55) ;
+    padding-top: 180px;
+}
+.carousel-footer a{
+    text-decoration: none;
+    color: white !important;
+}
+.carousel-footer button{
+    border-radius: 0px  !important;
+    border: 1px solid rgb(228, 119, 55);
+    background-color: rgb(168, 84, 36);
+}
+
+/* xxxxxxxxxxxxx-------Carousel Upper Section-----------xxxxxxxxxxxxxxxxxxx */
+
+.carousel-upper{
+    width: 80%;
+    height: 150px;
+    margin-top: -330px;
+    background-color: white;
+    margin-left: 10%;
+    position: relative;
+    
+}
+.carousel-upper svg{
+    color: orangered;
+}
+.carousel-upper p{
+    font-weight: 600;
+    font-size: 23px;
+}
+
+/* xxxxxxxxxxxxx-------Lets Explore Section-----------xxxxxxxxxxxxxxxxxxx */
+
+.lets-explore-btn{
+    background-color: rgba(29, 28, 28, 0.973);
+    border-radius: 0px !important;
+    color: white;
+    padding: 25px;
+    margin-left: 40%;
+
+}
+.lets-explore{
+    height: 300px;
+    width: 100%;
+    
+}
+.lets-explore-img img{
+    height: 200px;
+    width: 350px;
+}
+.lets-explore-img .btn{
+    border-radius: 0px;
+    width: 280px;
+    height: 50px;
+    background-color: white;
+    font-size: 150%;
+    font-weight: 450;
+    border: 0;
+    position: relative;
+    margin-top: -20px;
+    left: 10%;
+
+}
+
+/* xxxxxxxxxxxxx-------Meet Ideological Section-----------xxxxxxxxxxxxxxxxxxx */
+
+.meet-idealogical{
+    margin-top: 15%;
+    position: relative;
+}
+.meet-idealogical .img1 img{
+    height: 350px;
+    width: 480px;
+    position: absolute;
+    z-index: 3;
+}
+.meet-idealogical .img2 img{
+    position: absolute;
+    z-index: 2;
+    left: 55%;
+    top:70% ;
+}
+.meet-idealogical .img3 img{
+    position: absolute;
+    z-index: 1;
+    left: 60%;
+    top: 50%;
+}
+
+/* xxxxxxxxxxxxx-------Blue Section-----------xxxxxxxxxxxxxxxxxxx */
+
+.blue-section img{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)); */
+                       background-color: rgb(12, 12, 82);
+    height: 350px;
+    width: 100%;
+                       
+}
+.blue-section-text{
+    padding-left: 5%;
+    margin-top: -250px;
+    
+}
+.blue-section-text svg{
+    color: orangered;
+}
+
+/* xxxxxxxxxxxxx-------Meet Council-----------xxxxxxxxxxxxxxxxxxx */
+
+.meet-council{
+    margin-top: 10%;
+    
+}
+.meet-council .blue-text{
+    font-weight: 600;
+}
+.meet-council img{
+    border-radius: 0px !important;
+}
+.meet-council .text{
+    font-size: 90%;
+    font-weight: 400;
+}
+
+/* xxxxxxxxxxxxx-------Brand Section-----------xxxxxxxxxxxxxxxxxxx */
+.brand{
+    width: 100%;
+    height: 200px;
+
+}
+.brand .brand-row{
+    padding-left: 15%;
+    margin-top: 5%;
+}
+.brand .brand-row .img{
+    opacity: 30%;
+}
+
+
+/* xxxxxxxxxxxxx-------Footer Section-----------xxxxxxxxxxxxxxxxxxx */
+
+/* xxxxxxxxxxxxx-------Footer Navbar Section-----------xxxxxxxxxxxxxxxxxxx */
+
+.footer-nav i{
+    background-color: rgb(241, 236, 236);
+}
+.footer-nav{
+    padding-top: 15px;
+    background-color: rgb(12, 12, 82);
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+}
+.footer-nav-right{
+    margin-left: 40%;
+}
+.footer-nav a{
+    color: white;
+    font-size: 90%;
+    font-weight: 400;
+}
+.footer-nav-left{  
+    padding-left: 10%;
+}
+.footer-nav-right{
+    margin-left: 25%;
+}
+
+
+/* xxxxxxxxxxxxx-------Footer Main Section-----------xxxxxxxxxxxxxxxxxxx */
+
+.footer-main{
+    height: 320px;
+    background-color:rgb(12, 12, 82) ;
+}
+.footer-list{
+    font: 300;
+    font-size: 90%;
+    padding: 2px;
+    
+}
+.footer-main form .btn{
+    background-color: orangered !important;
+    border-radius: 0px;
+    border: 0px;
+    
+}
+.footer-main form input{
+    
+    border-radius: 0px;
+}
+
+.footer-bottom{
+    height: 70px;
+    background-color: rgb(5, 5, 44) ;
+}
+
+
+
+
